@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title> Mai's Favourite </title>
+</head>
+
+<body>
+    <style>
+        body {
+	    background-image: url('imgg.jpg');
+  	    background-repeat: no-repeat;
+  	    background-attachment: fixed;
+  	    background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+	
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #616a6b; 
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 12px 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .favorite-songs {
+            text-align: center;
+            padding: 40px 0;
+            background-color: darkgrey;
+            color: white;
+        }
+
+        .favorite-songs h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .songs-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .song-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .song-card:hover {
+            transform: scale(1.05);
+        }
+
+        .song-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .song-info {
+            padding: 20px;
+        }
+
+        .song-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .song-description {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .song-link {
+            text-decoration: none;
+            color: #16a085;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .song-link:hover {
+            color: #148f77;
+        }
+
+	/* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #616a6b;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="boutmai.html" target="_blank">About Mai</a></li>
+    <li><a href="gallery.html" target="_blank">Gallery</a></li>
+    <li><a href="experience.html" target="_blank">Experience</a></li>
+    <li><a href="educational.html" target="_blank">Education</a></li>
+    <li><a href="mai's fav.html" target="_blank">Mai's Favourite</a></li>
+</ul>
+
+    <div class="favorite-songs">
+        <marquee><h1>*ੈ✩‧₊˚Mai's Top Song*ੈ✩‧₊˚</h1></marquee>
+        <p>Here are some of the songs that I love to listen to!</p>
+    </div>
+
+    <div class="songs-list">
+        <!-- Song 1 -->
+        <div class="song-card">
+            <img src="lini.jpg" alt="Song 1" class="song-image">
+            <div class="song-info">
+                <h2 class="song-title">Mahalini</h2>
+                <p class="song-description">BaWa Dia Kembali.</p>
+  		<a href="https://open.spotify.com/track/25M9piWxSsq0xLcjQW5yz6?si=fa1d891397104b91" class="song-link" target="_blank">Listen Now</a>
+            </div>
+        </div>
+
+        <!-- Song 2 -->
+        <div class="song-card">
+            <img src="ndy.jpg" alt="Song 2" class="song-image">
+            <div class="song-info">
+                <h2 class="song-title">Bernadya</h2>
+                <p class="song-description">Kini Mereka Tahu.</p>
+                <a href="https://open.spotify.com/track/6fMS9J2yAv4I6ss9sQ230f?si=c61ad60fb377410d" class="song-link" target="_blank">Listen Now</a>
+            </div>
+        </div>
+
+        <!-- Song 3 -->
+        <div class="song-card">
+            <img src="miss.jpg" alt="Song 3" class="song-image">
+            <div class="song-info">
+                <h2 class="song-title">Gracie Abrams</h2>
+                <p class="song-description">I Miss You Im Sorry.</p>
+                <a href="https://open.spotify.com/track/4nyF5lmSziBAt7ESAUjpbx?si=0a051acaf20c4453" class="song-link" target="_blank">Listen Now</a>
+            </div>
+        </div>
+
+        <!-- Song 4 -->
+        <div class="song-card">
+            <img src="love.jpg" alt="Song 4" class="song-image">
+            <div class="song-info">
+                <h2 class="song-title">Gracie Abrams</h2>
+                <p class="song-description">I Love You Im Sorry</p>
+                <a href="https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy?si=98a15c7ef28d45de" class="song-link" target="_blank">Listen Now</a>
+            </div>
+        </div>
+    </div>
+
+<footer>
+        <div class="container">
+            <p style="color: white">&copy; 2024 Mai's <sub>Favourite</sub> - All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

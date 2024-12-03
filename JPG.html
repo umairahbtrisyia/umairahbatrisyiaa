@@ -1,0 +1,191 @@
+<html>
+<head>
+	<title> Johor Plantations </title>
+<body style="background-color: #d5f5e3">
+
+<style>
+/* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #16a085;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+/* Style the slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Hide all images by default */
+.mySlides {
+    display: none;
+}
+
+/* Style for images in the slideshow */
+.slide-image {
+    width: 300px;
+    height: auto;
+}
+
+/* Style the navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Add fade effect for the slides */
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.4; }
+}
+</style>
+
+<center>
+	<h1 style="background-color: #16a085; color:white"> ⋆·˚ ༘ *Johor Plantations Group Berhad ⋆·˚ ༘ *</h1> 
+	<h3 style="color: #148f77 ; font-size: 25px"> One of The JCorp Company₊˚ෆ </h3>
+	<a href="https://johorplantations.com/" target="_blank"><img src="download.gif" alt="Computer man" style="width:180px;height:180px;"></a>
+	<p style="color: #148f77 ;"><i> ^^ CLICK THE PLANT TO GO TO THE JPG WEBSS ^^</i></p>	
+	<h1 style="background-color: #16a085; color:white"> ⋆·˚ ༘ *JPG's Gallery ⋆·˚ ༘ *</h1>
+</center>
+
+<br><br>
+
+<body>
+<center>
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="mySlides fade">
+            <img src="jpg.jpg" alt="Image 1" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg2.jpg" alt="Image 2" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg3.jpg" alt="Image 3" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg4.jpg" alt="Image 1" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg5.jpg" alt="Image 2" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg6.jpg" alt="Image 3" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg7.jpg" alt="Image 1" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg8.jpg" alt="Image 2" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg9.jpg" alt="Image 3" class="slide-image">
+        </div>
+
+	<div class="mySlides fade">
+            <img src="jpg00.jpg" alt="Image 1" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg20.jpg" alt="Image 2" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg22.jpg" alt="Image 3" class="slide-image">
+        </div>
+
+	<div class="mySlides fade">
+            <img src="jpg23.jpg" alt="Image 1" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg24.jpg" alt="Image 2" class="slide-image">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="jpg25.jpg" alt="Image 3" class="slide-image">
+        </div>
+        <!-- Navigation Buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+<footer>
+    <p style="color:white">&copy; 2024 Umairah Experience - All Rights Reserved</p>
+</footer>
+
+    <script src="script.js"></script>
+<script>
+let slideIndex = 0;
+
+// Function to show the slides
+function showSlides() {
+    let slides = document.getElementsByClassName("mySlides");
+
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    // Move to the next slide
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; } // Loop back to first slide
+
+    // Display the current slide
+    slides[slideIndex - 1].style.display = "block";
+
+    // Change the slide every 3 seconds
+    setTimeout(showSlides, 3000);
+}
+
+// Function to navigate between slides manually
+function plusSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    slideIndex += n;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    if (slideIndex < 1) { slideIndex = slides.length; }
+    showSlides(); // Show the updated slide
+}
+
+// Initialize the slideshow
+showSlides();
+</script>
+
+</body>
+</head>
+</html>

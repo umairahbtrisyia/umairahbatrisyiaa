@@ -1,0 +1,191 @@
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #616a6b;
+}
+
+ 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #616a6b; /* light grey color */
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 12px 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        li a:hover {
+            background-color: #111; /* Darker grey */
+        }
+
+
+li {
+  float: left;
+  border-right: none;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #04AA6D;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Education Section */
+.education {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-table th, .education-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.education-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+}
+
+.education-table td {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.institution-logo {
+    width: 50px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+    
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+        
+        .hover-row {
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Kesan hover untuk baris jadual */
+        .hover-row:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        
+        .hover-row img:hover {
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+</style> 
